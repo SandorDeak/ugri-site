@@ -27,7 +27,8 @@
       box-sizing: border-box;
     }
     main {
-      max-width: 36rem;
+      max-width: 56rem;
+      width: 100%;
     }
     h1 {
       display: inline-block;
@@ -42,7 +43,21 @@
     }
     p {
       font-size: 1.15rem;
-      margin: 0 0 1.5rem;
+      max-width: 36rem;
+      margin: 0 0 2rem;
+    }
+    figure {
+      margin: 0 0 2rem;
+    }
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    figcaption {
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+      opacity: 0.75;
     }
     a {
       color: rgb(221, 126, 107);
@@ -56,6 +71,12 @@
   <main>
     <h1>ugri</h1>
     <p>The shortest path from hardware to applications, and the joy of creating along the way.</p>
+    <figure>
+      <img src="screenshot.png" alt="Screenshot of ugri: a code editor with a Tetris program next to four running Tetris windows and a console.">
+      <figcaption>
+          Proof of Concept: A self-contained programming environment running on Windows, where developers can create and run windowed and console applications.
+      </figcaption>
+    </figure>
     <footer>
       Coming soon. Contact: <a href="mailto:hello.ugri@gmail.com">hello.ugri@gmail.com</a>
     </footer>
